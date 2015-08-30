@@ -11,6 +11,3 @@ Following link will lead you to download the Feature Description file of our stu
 ###<h2 id="3"> Result </h2>
 Following link will lead you to download the RESULT file of our study, including a README file to explain the detail.   
 [DownlaodLink](./file/l2t.result.zip)   
-###<h2 id="4">Contribution</h2>
-###<h2 id="5">Reference</h2>
-[1] EXAMPLE
