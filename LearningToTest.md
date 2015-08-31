@@ -10,7 +10,7 @@ The features that we used are described in a file, which can be downloaded from 
 [DownlaodLink](./file/l2t.features.pdf)  
 ###<h2 id="3"> Data </h2>
 The experiment data in our study can be downloaded from the following link.   
-[DownlaodLink](./file/l2t.result.xlsx)  
+[DownlaodLink](./file/l2t.results.xlsx)  
 
 ###<h2 id="3"> Contributors </h2>
 Contributors to the implementation of LET are:   
