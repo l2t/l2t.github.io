@@ -308,27 +308,20 @@ sup {
 
 <p><em>update:2015-08-31</em>  </p>
 
-<h3 id="toc_1"><h2 id="1"> Introduction </h2></h3>
-
-<p>We propose the idea of <em>learning to test</em>, meaning to learn from previous test cases that trigger bugs and use the learned model to prioritize new test cases. Based on this idea, to accelerate C compiler testing, we propose LET, a <em>learning-to-test</em> approach, which utilizes the characteristics of existing test programs triggering bugs to schedule the execution order of new test programs. In particular, our approach first trains a prediction model from existing test programs to model the characteristics of test programs that trigger bugs. Then based on the prediction model, our approach schedules the execution order of new test programs through clustering. That is, through an offline learning process and an online scheduling process, the proposed approach determines an execution order of test programs with the aim of accelerating testing. We present an overview of LET as follows.
-<img src="./image/pro.png" alt=""></p>
-
-<h3 id="toc_2"><h2 id="2"> Features </h2></h3>
+<h3 id="toc_1"><h2 id="1"> Features </h2></h3>
 
 <p>The features that we used are described in a file, which can be downloaded from the following link.<br>
 <a href="./file/l2t.features.pdf">l2t.features.pdf</a>  </p>
 
+<h3 id="toc_2"><h2 id="2"> Features </h2></h3>
+
+<p>The implementation of our approach and its variants can be downloaded from the following link.<br>
+<a href="./file/Implementation.rar">Download_Implementation</a>  </p>
+
 <h3 id="toc_3"><h2 id="3"> Data </h2></h3>
 
-<p>The experiment results in our study can be downloaded from the following link.<br>
-<a href="./file/l2t.results.xlsx">Download</a>  </p>
-
-<h3 id="toc_4"><h2 id="3"> Contributors </h2></h3>
-
-<p>Contributors to the implementation of LET are:<br>
-Junjie Chen<br>
-Wenxiang Hu<br>
-Yanwei Bai   </p>
+<p>The experimental results in our study can be downloaded from the following link.<br>
+<a href="./file/l2t.results.xlsx">Download_Data</a>  </p>
 
 
 </body>
