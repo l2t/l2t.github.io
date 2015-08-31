@@ -307,22 +307,29 @@ sup {
 <h2 id="toc_0">Learning to Test - Accelerating C Compiler Testing</h2>
 
 <p><em>update:2015-08-30 under_construction</em><br>
-<a href="#1">1.Intro</a> <a href="#2">2.Featrue</a> <a href="#3">3.Result</a> <a href="#4">4.Contribution</a> <a href="#5">5.Reference</a></p>
+<a href="#1">1.Introduction</a> <a href="#2">2.Features</a> <a href="#3">3.Data</a> <a href="#4">4.Contributors</a></p>
 
-<h3 id="toc_1"><h2 id="1">Intro</h2></h3>
+<h3 id="toc_1"><h2 id="1"> Introduction </h2></h3>
 
-<p>We propose the idea of learning to test, meaning to learn from previous test cases that trigger bugs and use the learned model to prioritize new test cases. Based on this idea, to accelerate C compiler testing, we propose LET, a learning-to-test approach, which consists of the learning process and scheduling process. Certain processes&#39;s illustrations are as follows.
+<p>We propose the idea of learning to test, meaning to learn from previous test cases that trigger bugs and use the learned model to prioritize new test cases. Based on this idea, to accelerate C compiler testing, we propose LET, a learning-to-test approach, which utilizes the characteristics of existing test programs triggering bugs to schedule the execution order of new test programs. In particular, our approach first trains a prediction model from existing test programs to model the characteristics of test programs that trigger bugs. Then based on the prediction model, our approach schedules the execution order of new test programs through clustering. That is, through an offline learning process and an online scheduling process, the proposed approach determines an execution order of test programs with the aim of accelerating testing. We present an overview of LET as follows.
 <img src="./image/pro.png" alt=""></p>
 
-<h3 id="toc_2"><h2 id="2">Features</h2></h3>
+<h3 id="toc_2"><h2 id="2"> Features </h2></h3>
 
-<p>Following link will lead you to download the Feature Description file of our study.<br>
+<p>The features that we used are described in a file, which can be downloaded from the following link.<br>
 <a href="./file/l2t.features.pdf">DownlaodLink</a>  </p>
 
-<h3 id="toc_3"><h2 id="3"> Result </h2></h3>
+<h3 id="toc_3"><h2 id="3"> Data </h2></h3>
 
-<p>Following link will lead you to download the RESULT file of our study, including a README file to explain the detail.<br>
-<a href="./file/l2t.result.zip">DownlaodLink</a>   </p>
+<p>The experiment data in our study can be downloaded from the following link.<br>
+<a href="./file/l2t.result.xlsx">DownlaodLink</a>  </p>
+
+<h3 id="toc_4"><h2 id="3"> Contributors </h2></h3>
+
+<p>Contributors to the implementation of LET are:<br>
+Junjie Chen<br>
+Wenxiang Hu<br>
+Yanwei Bai   </p>
 
 
 </body>

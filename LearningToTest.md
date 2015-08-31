@@ -9,10 +9,11 @@ We propose the idea of learning to test, meaning to learn from previous test cas
 The features that we used are described in a file, which can be downloaded from the following link.  
 [DownlaodLink](./file/l2t.features.pdf)  
 ###<h2 id="3"> Data </h2>
-Following link will lead you to download the RESULT file of our study, including a README file to explain the detail.   
-[DownlaodLink](./file/l2t.result.zip)   
+The experiment data in our study can be downloaded from the following link.   
+[DownlaodLink](./file/l2t.result.xlsx)  
+
 ###<h2 id="3"> Contributors </h2>
-Contributors to the implementation of LET are:
-Junjie Chen
-Wenxiang Hu
-Yanwei Bai
+Contributors to the implementation of LET are:   
+Junjie Chen   
+Wenxiang Hu   
+Yanwei Bai   
