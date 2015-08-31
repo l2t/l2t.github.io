@@ -42,16 +42,16 @@ There are four groups of features that used in accelerating C compiler testing.
 + a set of structural depth features, each of which refers to the max depth of structs, expression, block, or dereference of a program.
 >* *Dereference*:   
 >The dereference operator or indirection operator, denoted by "*", is a unary operator found in C-like languages that include pointer variables. It operates on a pointer variable, and returns an l-value equivalent to the value at the pointer address. This is called "dereferencing" the pointer. For example:
->> int x;
-   int *p;  // * is used in the declaration:
-            // p is a pointer to an integer, since (after dereferencing),
-            // *p is an integer
-   x = 0;
-   // now x == 0
-   p = &x;  // & takes the address of x
-   // now p == &x, so *p == x
-   *p = 1;  // equivalent to x = 1, since *p == x
-   // now *p == 1 and *p == x, so x == 1
+>> int x;   
+   int *p;  // * is used in the declaration:   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         // p is a pointer to an integer, since (after dereferencing),   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         // *p is an integer   
+   x = 0;   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // now x == 0   
+   p = &x;  // & takes the address of x   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;// now p == &x, so *p == x   
+   *p = 1;  // equivalent to x = 1, since *p == x   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// now *p == 1 and *p == x, so x == 1   
    <p style align="right">-- from WIKIPEDIA	</p>
 
 **Complexity** features are concerned with program complexity. Intuitively, the more complex a program is, the more likely this program triggers bugs. Moreover, the various combinations of complexity features of a test program may have influence on triggering bugs. 
@@ -59,7 +59,7 @@ There are four groups of features that used in accelerating C compiler testing.
 + a set of address features, each of which refers to the number of times the address of a struct or a variable is taken respectively.
 
 + a set of struct bitfield features, which refers to the times of a struct with bitfields on LHS and the times of a struct with bitfields on RHS.
->* *LHS & RHS*: 
+>* *LHS & RHS*:   
 >In mathematics, LHS is informal shorthand for the left-hand side of an equation. Similarly, RHS is the right-hand side. The two sides have the same value, expressed differently, since equality is symmetric. 
 ><p style align="right">-- from WIKIPEDIA	</p>	
 
