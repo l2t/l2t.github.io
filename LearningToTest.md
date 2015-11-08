@@ -1,6 +1,6 @@
 Learning to Test - Accelerating C Compiler Testing
 ---
-*updated:F**k Huwenson*  
+*updated*  
 
 ###<h2 id="1"> Features </h2>
 The features that we used are described in a file, which can be downloaded from the following link.  
