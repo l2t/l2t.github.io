@@ -1,13 +1,12 @@
-Learning to Test - Accelerating C Compiler Testing
+Learning to Test : Accelerating Compiler Testing
 ---
 *updated*  
 
-###<h2 id="1"> Features </h2>
-The features that we used are described in a file, which can be downloaded from the following link.  
-[l2t.features.pdf](./file/l2t.features.pdf)  
-###<h2 id="2"> Implementation </h2>
-The implementation of our approach and its variants can be downloaded from the following link.  
-[Download_Implementation](./file/Implementation.zip)  
-###<h2 id="3"> Data </h2>
-The experimental results in our study can be downloaded from the following link.   
-[Download_Data](./file/l2t.results.xlsx)  
+###<h2 id="1"> Download </h2>
+After downloading, there are three folders in the package: data, source and feature
+
+**For data**: This folder contains all raw data in our experiments   
+**For source**: This folder contains the implementations and corresponding files used in the source code   
+**For feature**: This folder contains all the details about the features used in our work
+   
+[Download](./LET.zip)  
